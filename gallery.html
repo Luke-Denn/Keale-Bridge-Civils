@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Gallery</title>
+    <link rel="icon" type="image/png" href="images/logo.png" class="title-logo"/>
+    <script src="https://kit.fontawesome.com/4db56bd45e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+   
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">
+            &nbsp;
+        </div>
+        
+        
+        <nav class="navigation__nav">
+        <ul class="navigation-list">
+            <li class="navigation-list__item">
+                <a href="index.html" class="navigation-list__link">Home</a>
+            </li>
+            <li class="navigation-list__item">
+                <a href="#" class="navigation-list__link">Services</a>
+                        <ul class="navigation-list__sub">
+                            <li class="navigation-list__item--sub">
+                             <a href="landscape.html" class="navigation-list__link--sub">Landscape</a>
+                            </li>
+                            <li class="navigation-list__item--sub">
+                             <a href="groundswork.html" class="navigation-list__link--sub">Groundswork</a>
+                            </li>
+                        </ul>
+            </li>
+            <li class="navigation-list__item">
+                <a href="gallery.html" class="navigation-list__link">Gallery</a>
+            </li>
+            <li class="navigation-list__item">
+                <a href="contact.html" class="navigation-list__link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    
+    <header class="header">
+        <div class="logo-box">
+            <img src="images/logo.png" alt="logo-img" class="logo-box__image">
+        </div>
+            <div class="header-sub__left">
+                <a href="tel:+353876319970" class="header-sub__left-item">
+                    <img class="header-icon" src="images/icons8-phone-30.png" alt="phone-img">0876319970
+                </a>
+                <a class="header-sub__left-item" href="mailto:kealebridgecivils@info.com"><img class="header-icon" src="images/icons8-email-48.png" alt="email-img">kealebridge@info.com
+                </a>
+            </div>
+            <div class="header-sub__right">
+                    <a class="header-sub__right-item" href="https://www.instagram.com/"><img class="social-icon" src="images/icons8-instagram-48.png" alt="instagram-logo" class="header-social"></a>
+                    <a class="header-sub__right-item" href="https://www.facebook.com/"><img class="social-icon" src="images/icons8-facebook-48.png" alt="facebook-logo" class="header-social"></a>
+                    <a class="header-sub__right-item" href="https://www.linkedin.com/"><img class="social-icon" src="images/icons8-linkedin-48.png" alt="lindedin-logo" class="header-social"></a>
+            </div>
+        </header>
+
+    <h1 class="heading-primary gallery-heading">
+        Photo <span class="bolder">Gallery</span>
+    </h1>
+
+    <div class="full-img" id="fullImgBox">
+        <img class="full-img__image" id="fullImg" src="images/claus-jensen-aekceO7_ouo-unsplash.jpg" alt="gallery-image">
+        <i class="fa-regular fa-circle-xmark full-img__close" id="xMark"></i>
+    </div>
+
+    <div class="gallery">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.1.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.2.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.3.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.4.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.5.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.6.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.7.JPG" alt="gallery-image">
+        <img id="galleryImage" class="gallery-img" src="images/KBC.8.JPG" alt="gallery-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
